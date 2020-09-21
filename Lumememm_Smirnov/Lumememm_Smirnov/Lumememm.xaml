@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lumememm_Smirnov.Lumememm">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame x:Name="hat"
+                BackgroundColor="Red"
+                   Padding="30"
+                   CornerRadius="1"
+                   Margin="150,0"
+                   >
+                <Label FontSize="Micro"
+                       />
+            </Frame>
+            <Frame x:Name="head"
+                BackgroundColor="ForestGreen"
+                   Padding="70"
+                   CornerRadius="90"
+                   Margin="100,-10">
+                <Label FontSize="Small"
+                       />
+            </Frame>
+            <Frame x:Name="body"
+                BackgroundColor="ForestGreen"
+                   Padding="80"
+                   CornerRadius="90"
+                   Margin="100,-20">
+                <Label
+                FontSize="Medium"
+                />
+            </Frame>
+            <Frame x:Name="legs"
+                BackgroundColor="ForestGreen"
+                   Padding="90"
+                   CornerRadius="90"
+                   Margin="90, -10">
+                <Label FontSize="Large"
+                       />
+            </Frame>
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="one"
+                        Text="hide"
+                        BackgroundColor="DarkGoldenrod"
+                        HorizontalOptions="StartAndExpand"
+                        Clicked="one_Clicked"/>
+                <Button x:Name="two"
+                        Text="unhide"
+                        BackgroundColor="MediumSpringGreen"
+                        HorizontalOptions="Center"
+                        Clicked="two_Clicked"/>
+                <Button x:Name="Color"
+                        Text="Random"
+                        BackgroundColor="LightSkyBlue"
+                        HorizontalOptions="CenterAndExpand"
+                        Clicked="Color_Clicked"/>
+                <Button x:Name="hot"
+                        Text="Melt"
+                        BackgroundColor="Beige"
+                        HorizontalOptions="End"
+                        Clicked="hot_Clicked"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Button x:Name="three"
+                        HorizontalOptions="FillAndExpand"
+                        BackgroundColor="LightSalmon"
+                        Text="hidehat"
+                        Clicked="three_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
