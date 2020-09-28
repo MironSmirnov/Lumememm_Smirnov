@@ -78,7 +78,7 @@ namespace Lumememm_Smirnov
 
         private void three_Clicked(object sender, EventArgs e)
         {
-
+            hat.Opacity = 0;
         }
     }
 }

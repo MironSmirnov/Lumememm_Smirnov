@@ -10,7 +10,7 @@ namespace Lumememm_Smirnov
         {
             InitializeComponent();
 
-            MainPage = new Lumememm();
+            MainPage = new test();
         }
 
         protected override void OnStart()
